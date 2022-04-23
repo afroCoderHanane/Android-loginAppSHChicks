@@ -17,13 +17,12 @@
 
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
 
         app:layout_constraintLeft_toLeftOf="parent"
 
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.192" />
 
     <Button
         android:id="@+id/button"
@@ -31,17 +30,17 @@
         android:layout_height="wrap_content"
 
         android:backgroundTint="@color/grey"
-        android:onClick="clickFunction"
+        android:onClick="login"
         android:text="Login"
 
         app:layout_constraintBottom_toBottomOf="parent"
 
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543"
+        app:layout_constraintVertical_bias="0.616"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -58,10 +57,10 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.481"
+        app:layout_constraintVertical_bias="0.202"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -80,6 +79,19 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernameLogin" />
+
+    <ImageView
+        android:id="@+id/logo_login"
+        android:layout_width="97dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="157dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/egg_login" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
