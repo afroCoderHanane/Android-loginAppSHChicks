@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     public void clickFunction(View view) {
         EditText usernameLogin = findViewById(R.id.usernameLogin);
         EditText passwordLogin = findViewById(R.id.passwordLogin);
-        Log.i("Info", usernameLogin.getText().toString());
-        Log.i("Info", passwordLogin.getText().toString());
+        Log.i("Username", usernameLogin.getText().toString());
+        Log.i("Password", passwordLogin.getText().toString());
     }
 
     @Override
